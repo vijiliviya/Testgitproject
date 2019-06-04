@@ -38,6 +38,7 @@ package SamplePack;
 		  }
 			public hello()
 			{
+				System.out.println("newone code");
 			}
 			
 			
