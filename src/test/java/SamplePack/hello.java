@@ -35,8 +35,14 @@ package SamplePack;
 			System.out.println("new");
 			  System.out.println("example");
 			System.out.println("newqq");
-			  
 		  }
+			public hello()
+			{
+			}
+			
+			
+			  
 	}
+	
 
 
