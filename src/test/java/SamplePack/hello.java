@@ -29,6 +29,8 @@ package SamplePack;
 		  @AfterClass
 		  public void afterClass() {
 		   //driver.quit();
+			  System.out.println("afterclassgit");
+			System.out.println("newgit");
 			  System.out.println("afterclass");
 			System.out.println("new");
 			  System.out.println("example");
