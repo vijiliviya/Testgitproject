@@ -2,23 +2,31 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32658" started-at="2019-06-06T09:59:24Z" finished-at="2019-06-06T09:59:56Z">
+  <suite name="Default suite" duration-ms="30403" started-at="2019-06-11T07:38:17Z" finished-at="2019-06-11T07:38:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32658" started-at="2019-06-06T09:59:24Z" finished-at="2019-06-06T09:59:56Z">
+    <test name="Default test" duration-ms="30403" started-at="2019-06-11T07:38:17Z" finished-at="2019-06-11T07:38:48Z">
       <class name="SamplePack.hello">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SamplePack.hello@7823a2f9]" name="beforeClass" is-config="true" duration-ms="22053" started-at="2019-06-06T15:29:24Z" finished-at="2019-06-06T15:29:46Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SamplePack.hello@7823a2f9]" name="beforeClass" is-config="true" duration-ms="10294" started-at="2019-06-11T13:08:17Z" finished-at="2019-06-11T13:08:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:SamplePack.hello@7823a2f9]" name="openMyBlog" duration-ms="10579" started-at="2019-06-06T15:29:46Z" finished-at="2019-06-06T15:29:56Z">
+        <test-method status="PASS" signature="beforeClass1()[pri:0, instance:SamplePack.hello@7823a2f9]" name="beforeClass1" is-config="true" duration-ms="4659" started-at="2019-06-11T13:08:28Z" finished-at="2019-06-11T13:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1 -->
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:SamplePack.hello@7823a2f9]" name="openMyBlog" duration-ms="15380" started-at="2019-06-11T13:08:32Z" finished-at="2019-06-11T13:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMyBlog -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SamplePack.hello@7823a2f9]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-06-06T15:29:56Z" finished-at="2019-06-06T15:29:56Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SamplePack.hello@7823a2f9]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-06-11T13:08:48Z" finished-at="2019-06-11T13:08:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterClass1()[pri:0, instance:SamplePack.hello@7823a2f9]" name="afterClass1" is-config="true" duration-ms="1" started-at="2019-06-11T13:08:48Z" finished-at="2019-06-11T13:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass1 -->
       </class> <!-- SamplePack.hello -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
