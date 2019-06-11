@@ -1,5 +1,5 @@
 package SamplePack;
-<<<<<<< HEAD
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -10,24 +10,7 @@ import org.testng.annotations.Test;
  * Hello world!
  *
  */
-public class hello 
-{
-	public WebDriver driver;
 
-	@Test
-	public void openMyBlog() {
-		driver.get("https://www.softwaretestingmaterial.com/");
-=======
-	import org.openqa.selenium.WebDriver;
-	import org.openqa.selenium.chrome.ChromeDriver;
-	import org.testng.annotations.AfterClass;
-	import org.testng.annotations.BeforeClass;
-	import org.testng.annotations.Test;
-
-	/**
-	 * Hello world!
-	 *
-	 */
 	public class hello 
 	{
 		public WebDriver driver;
@@ -38,7 +21,7 @@ public class hello
 		  }
 		  
 		  @BeforeClass
-		  public void beforeClass() {
+		  public void beforeClass1() {
 		   
 		   System.setProperty("webdriver.chrome.driver", "C:\\Users\\vraja\\workspace\\SampleMavenProject\\Driver\\chromedriver.exe");
 		   driver = new ChromeDriver();
@@ -46,7 +29,7 @@ public class hello
 		  }
 		 
 		  @AfterClass
-		  public void afterClass() {
+		  public void afterClass1() {
 		   //driver.quit();
 			  System.out.println("afterclassgit");
 			System.out.println("newgit");
@@ -64,8 +47,8 @@ public class hello
 			
 			
 			  
->>>>>>> 27392ee609d001edbb86f8d390a7f8c72863a62e
-	}
+
+	
 	
 
 	@BeforeClass
